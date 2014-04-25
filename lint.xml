@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="NewApi">
+        <ignore path="src/com/accia77/mockey/FileUtils.java" />
+        <ignore path="src/com/accia77/mockey/LocalStorageProvider.java" />
+        <ignore path="src/com/accia77/mockey/MainActivity.java" />
+        <ignore path="src/com/accia77/mockey/MonkeyFragment.java" />
+    </issue>
+</lint>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background" >
+
+    <!-- 1st row (Add quotes) -->
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/ic_action_new" />
+
+        <TextView
+            style="@style/help_text"
+            android:text="@string/help_screen_add_quotes"
+            android:fontFamily="sans-serif-condensed"
+             />
+
+    </TableRow>
+
+    
+
+    <!-- 2nd row (monkey) -->
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/ic_launcher" />
+
+        <TextView
+            style="@style/help_text"
+            android:text="@string/help_screen_pick_random_quote_procedure"
+            android:fontFamily="sans-serif-condensed" />
+
+    </TableRow>
+
+    <!-- 3rd row (manage quotes) -->
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/ic_action_search_light" />
+
+        <TextView
+            style="@style/help_text"
+            android:text="@string/help_screen_manage_quotes"
+            android:fontFamily="sans-serif-condensed"/>
+
+    </TableRow>
+
+    <!-- 4th row (options) -->
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/ic_action_settings_light" />
+
+        <TextView
+            style="@style/help_text" 
+            android:text="@string/help_screen_edit_options"
+            android:fontFamily="sans-serif-condensed"/>
+
+    </TableRow>
+    
+    <!-- 5th row (help) -->
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/ic_action_help_light" />
+
+        <TextView
+            style="@style/help_text"
+            android:text="@string/help_screen_show_help"
+            android:fontFamily="sans-serif-condensed"/>
+
+    </TableRow>
+    
+    <!-- just draw a line -->
+    <View
+        android:layout_height="2dip"
+        android:background="#000000" />
+
+    <!-- 6th row (contact info) -->
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <TextView
+            style="@style/help_text"
+            android:paddingTop="10dp"
+            android:text="@string/help_screen_contact_info"
+            android:autoLink="email"
+            android:fontFamily="sans-serif-condensed"/>
+
+    </TableRow>
+    
+
+</TableLayout>

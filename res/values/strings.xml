@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mockey</string>
+    <string name="title_activity_add_new_entry">Add new quote</string>
+    <string name="add_new_text_entry">Add (max %1$d characters)</string>
+    <string name="new_text_entry_hint">New text quote</string>
+    <string name="title_activity_manage_entries">Manage quotes</string>
+    <string name="context_menu_delete">Delete</string>
+    <string name="context_menu_edit">Edit description</string>
+    <string name="start_recording">Start Recording audio quote (max %1$d sec)</string>
+    <string name="stop_recording">Stop Recording</string>
+    <string name="start_playing">Start Playback</string>
+    <string name="stop_playing">Stop Playback</string>
+    <string name="playback_failed">Playback failed!</string>
+    <string name="context_menu_play">Listen</string>
+    <string name="action_settings">Options</string>
+    <string name="action_goto_add">Add quotes</string>
+    <string name="action_manage_quotes">Manage quotes</string>
+    <string name="action_delete_all_entries">Delete everything</string>
+    <string name="action_help">Help</string>
+    <string name="action_export_everything">Export all data</string>
+    <string name="action_import">Import</string>
+    <string name="email_default_subject">Export data Mockey</string>
+    <string name="email_default_message">To import, select "Import" in the management screen. Don\'t modify zip\'s contents/name!</string>
+    <string name="email_notice_to_user">Export by email</string>
+    <string name="problems_opening_file">Problems opening file:</string>
+    <string name="title_activity_file_browser">Select file for import</string>
+    <string name="unzip_failed">Unzip failed!</string>
+    <string name="db_import_failed">DB import failed!</string>
+    <string name="import_completed">Import completed :-)</string>
+    <string name="import_progress_window_title">Import in progress</string>
+    <string name="import_progress_window_content">Please wait</string>
+    <string name="zero_entries_warning">Insert some quotes!</string>
+    <string name="zipfile_correctly_created">Zip file correctly created in </string>
+    <string name="zipfile_creation_failed">Zip file creation failed!</string>
+    <string name="email_sending_failed">Email wasn\'t sent, try again: </string>
+    <string name="title_user_edit_note">Edit description</string>
+    <string name="message_user_edit_note">Insert new description</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="image">Thumbnail</string>
+    <string name="item_successfully_added">Quote successfully inserted!</string>
+    <string name="item_not_added_empty_string">You can\'t add empty quotes!</string>
+    <string name="tts_init_failed">Text-to-speech initialization failed!</string>
+    <string name="tts_init_in_progress">Text-to-speech initialization in progress: try again later!</string>
+    <string name="tts_init_done">Text-to-speech ready to go!</string>
+    <string name="alert_deleteallentries_title">Delete all quotes?</string>
+    <string name="alert_deleteallentries_confirm_request">Are you sure?</string>
+    <string name="title_activity_help_screen">HelpScreen</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="help_screen_welcome_title">Welcome!</string>
+    <string name="help_screen_title">Help</string>
+    <string name="help_screen_add_quotes">Add some quotes (text/audio)</string>
+    <string name="help_screen_pick_random_quote_procedure">Shake the phone (or double tap the home screen) to pick a random quote</string>
+    <string name="help_screen_manage_quotes">Manage your quotes: tap on their description to edit them, tap on their icons to listen to them</string>
+    <string name="help_screen_edit_options">Edit options</string>
+    <string name="help_screen_show_help">Show help (this screen)</string>
+    <string name="help_screen_close">Close</string>
+    <string name="help_screen_contact_info">If you have any feedback/request for features, email me, i will be happy to respond!\nfrabena77@gmail.com</string>
+    <string name="settings_quote_background_summary">Background for the screen showing the chosen quote</string>
+    <string name="settings_quote_background_title">Quote Background Image</string>
+    <string name="settings_main_activity_title_summary">Title for the main screen</string>
+    <string name="settings_main_activity_title_title">Title for the main screen</string>
+    <string name="settings_main_activity_change_title">Change main screen title</string>
+    <string name="settings_main_activity_change_summary">You can change the title and put the name of who you\'re mocking!</string>
+    <string name="select_background_image">Select background image</string>
+    <string name="background_modify_success">Background changed!</string>
+    <string name="background_modify_failure">Background NOT changed :-(</string>
+    
+    <string name="background_loading_problems">Background picture not found! Loading default one</string>
+    <string name="reset_background_image">Reset background</string>
+    <string name="reset_background_success">Background successfully reset!</string>
+    <string name="settings_select_background_image_summary">Set the background of the screen showing the quote</string>
+    <string name="settings_reset_background_image_summary"></string>
+    <string name="settings_screen_title">Options</string>
+    <string name="title_activity_pick_animation_frames">Select Background Images</string>
+    
+    <string name="settings_animation_frames_summary">Images used as background</string>
+    <string name="settings_animation_frames_title">Background images</string>
+    <string name="settings_select_animation_frames_summary">Images used as background</string>
+    <string name="settings_select_animation_frames_title">Select images</string>
+    <string name="settings_reset_animation_frames_summary"></string>
+    <string name="settings_reset_animation_frames_title">Reset backgrounds to default</string>
+    
+    <string name="picture">Picture</string>
+    <string name="select_intro">Long-press a thumbnail to edit the associated background</string>
+    <string name="show_intro">Press a thumbnail to display it at a larger size</string>
+
+    <string name="sdcard_not_mounted">Sd Card not mounted. Operation aborted!</string>
+    <string name="sdcard_not_mounted_on_application_start">No Sd Card detected: the app needs it to work properly!</string>
+    
+    <string name="hintSearchFilter">Filter quotes</string>
+    <string name="recording_prepare_failed">Recording failed! (prepare() failed)</string>
+
+	<string name="main_activity_title_changed">Title changed!</string>
+    
+</resources>

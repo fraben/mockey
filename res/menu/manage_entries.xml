@@ -1,0 +1,49 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- Ora si usa il back button per tornare alla main activity
+    <item
+        android:id="@+id/action_go_home"
+        android:orderInCategory="10"
+        android:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_today"
+        android:title=""/> 
+     -->
+    <item
+        android:id="@+id/action_add"
+        android:orderInCategory="11"
+        android:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/action_goto_add" />
+    
+    <item
+        android:id="@+id/action_delete_all_entries"
+        android:orderInCategory="12"
+        android:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="@string/action_delete_all_entries" />
+    
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="13"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_settings"
+        android:title="@string/action_settings" 
+        android:visible="false" />
+    
+    <item
+        android:id="@+id/action_export_everything"
+        android:orderInCategory="14"
+        android:showAsAction="never"
+        android:icon="@drawable/ic_action_import_export"
+        android:title="@string/action_export_everything"
+        android:visible="false" />
+    
+    <item
+        android:id="@+id/action_import"
+        android:orderInCategory="15"
+        android:showAsAction="never"
+        android:icon="@drawable/ic_action_import_export"
+        android:title="@string/action_import"
+        android:visible="false" />
+
+</menu>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.accia77.mockey"
+    android:versionCode="6"
+    android:versionName="1.1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:name="com.accia77.mockey.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Sherlock.Light.DarkActionBar" >
+        <activity
+            android:name="com.accia77.mockey.ui.MainActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.accia77.mockey.ui.PapiroActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" 
+            android:parentActivityName="com.accia77.mockey.ui.MainActivity" >
+            
+	        <!-- Parent activity meta-data to support 4.0 and lower -->
+	        <meta-data
+	            android:name="android.support.PARENT_ACTIVITY"
+	            android:value="com.accia77.mockey.ui.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.accia77.mockey.ui.FileBrowserActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_file_browser"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.accia77.mockey.ui.PickBackgroundImagesActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_pick_animation_frames"
+            android:screenOrientation="portrait" 
+            android:parentActivityName="com.accia77.mockey.ui.SettingsActivity" >
+            
+	        <!-- Parent activity meta-data to support 4.0 and lower -->
+	        <meta-data
+	            android:name="android.support.PARENT_ACTIVITY"
+	            android:value="com.accia77.mockey.ui.SettingsActivity" />
+        </activity>
+        <activity
+            android:name="com.accia77.mockey.ui.SettingsActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/action_settings"
+            android:screenOrientation="portrait" 
+            android:parentActivityName="com.accia77.mockey.ui.MainActivity" >
+            
+	        <!-- Parent activity meta-data to support 4.0 and lower -->
+	        <meta-data
+	            android:name="android.support.PARENT_ACTIVITY"
+	            android:value="com.accia77.mockey.ui.MainActivity" />
+        </activity>
+
+        <service android:name="com.accia77.mockey.services.TextToSpeechService" />
+    </application>
+
+</manifest>

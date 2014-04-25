@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <EditTextPreference
+        android:key="main_activity_title"
+        android:maxLength="15"
+        android:summary="@string/settings_main_activity_change_summary"
+        android:title="@string/settings_main_activity_change_title" />
+
+    <PreferenceCategory
+        android:summary="@string/settings_animation_frames_summary"
+        android:title="@string/settings_animation_frames_title" >
+        <Preference
+            android:key="select_animation_frames"
+            android:summary="@string/settings_select_animation_frames_summary"
+            android:title="@string/settings_select_animation_frames_title" />
+        <Preference
+            android:key="reset_animation_frames"
+            android:summary="@string/settings_reset_animation_frames_summary"
+            android:title="@string/settings_reset_animation_frames_title" />
+    </PreferenceCategory>
+    
+
+</PreferenceScreen>

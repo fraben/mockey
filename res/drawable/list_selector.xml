@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+ 
+    <!-- Selettore per gli stati dei list item
+         Serve a scegliere quale layout associare
+         agli stati dell'item (pressed, normal, activated) -->
+    <item android:drawable="@drawable/list_item_bg_normal" android:state_activated="false"/>
+    <item android:drawable="@drawable/list_item_bg_pressed" android:state_pressed="true"/>
+    <item android:drawable="@drawable/list_item_bg_pressed" android:state_activated="true"/>
+ 
+</selector>

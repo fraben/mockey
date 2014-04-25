@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mockey</string>
+    <string name="title_activity_add_new_entry">Aggiungi una frase</string>
+    <string name="add_new_text_entry">Aggiungi (max %1$d caratteri)</string>
+    <string name="new_text_entry_hint">Nuova frase (testo)</string>
+    <string name="title_activity_manage_entries">Gestisci le frasi</string>
+    <string name="context_menu_delete">Elimina</string>
+    <string name="context_menu_edit">Modifica descrizione</string>
+    <string name="start_recording">Avvia registrazione audio (max %1$d sec)</string>
+    <string name="stop_recording">Ferma registrazione</string>
+    <string name="start_playing">Avvia Playback</string>
+    <string name="stop_playing">Ferma Playback</string>
+    <string name="playback_failed">Playback fallito!</string>
+    <string name="context_menu_play">Ascolta</string>
+    <string name="action_settings">Opzioni</string>
+    <string name="action_goto_add">Aggiungi frasi</string>
+    <string name="action_manage_quotes">Gestisci le frasi</string>
+    <string name="action_delete_all_entries">Elimina tutto</string>
+    <string name="action_export_everything">Esporta tutti i dati</string>
+    <string name="action_import">Importa</string>
+    <string name="action_help">Aiuto</string>
+    <string name="email_default_subject">Export Dati Mockey</string>
+    <string name="email_default_message">Per importare, seleziona "Importa" nella schermata di gestione. Non modificare il nome dello zip o i suoi contenuti!</string>
+    <string name="email_notice_to_user">Esporta per email</string>
+    <string name="problems_opening_file">Problemi nell\'apertura del file:</string>
+    <string name="title_activity_file_browser">Scegli file per l\'importazione</string>
+    <string name="unzip_failed">Unzip fallito!</string>
+    <string name="db_import_failed">Import del DB fallito!</string>
+    <string name="import_completed">Import completato :-)</string>
+    <string name="import_progress_window_title">Import in corso</string>
+    <string name="import_progress_window_content">Attendere prego</string>
+    <string name="zero_entries_warning">Inserisci delle frasi!</string>
+    <string name="zipfile_correctly_created">Creato correttamente il file zip in </string>
+    <string name="zipfile_creation_failed">Creazione file zip fallita!</string>
+    <string name="email_sending_failed">Invio email fallito, riprova: </string>
+    <string name="title_user_edit_note">Modifica descrizione</string>
+    <string name="message_user_edit_note">Inserisci una nuova descrizione</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Annulla</string>
+    <string name="image">Thumbnail</string>
+    <string name="select_background_image">Seleziona lo sfondo</string>
+    <string name="background_modify_success">Sfondo cambiato!</string>
+    <string name="background_modify_failure">Sfondo NON cambiato :-(</string>
+    <string name="background_loading_problems">Immagine di sfondo non trovata! Carico lo sfondo di default</string>
+    <string name="reset_background_image">Resetta lo sfondo</string>
+    <string name="reset_background_success">Sfondo resettato!</string>
+    <string name="item_successfully_added">Frase inserita!</string>
+    <string name="item_not_added_empty_string">Non si possono inserire frasi vuote!</string>
+    <string name="tts_init_failed">Inizializzazione Text-to-speech fallita!</string>
+    <string name="tts_init_in_progress">Inizializzazione Text-to-speech in corso: riprova più tardi!</string>
+    <string name="tts_init_done">Text-to-speech pronto!</string>
+    <string name="alert_deleteallentries_title">Vuoi cancellare tutte le frasi?</string>
+    <string name="alert_deleteallentries_confirm_request">Sei sicuro?</string>
+    <string name="help_screen_welcome_title">Benvenuto!</string>
+    <string name="help_screen_title">Aiuto</string>
+    <string name="help_screen_add_quotes">Aggiungi delle frasi (text/audio)</string>
+    <string name="help_screen_pick_random_quote_procedure">Scuoti il dispositivo (o fai doppio tap sullo schermo home) per selezionare una frase a caso</string>
+    <string name="help_screen_manage_quotes">Gestisci le frasi aggiunte: premi su una singola frase per modificarla, premi sulla sua icona per ascoltarla</string>
+    <string name="help_screen_edit_options">Modifica opzioni</string>
+    <string name="help_screen_show_help">Mostra aiuto (questo schermo)</string>
+    <string name="help_screen_close">Chiudi</string>
+    <string name="help_screen_contact_info">Per ogni feedback/richiesta di nuove funzioni, inviami una email, sarà un piacere rispondere!\nfrabena77@gmail.com</string>
+    
+    <string name="settings_quote_background_summary">Immagine di sfondo per lo schermo che mostra la frase scelta</string>
+    <string name="settings_quote_background_title">Immagine di sfondo per la frase scelta</string>
+	<string name="settings_main_activity_title_summary">Titolo per lo schermo principale</string>
+	<string name="settings_main_activity_title_title">Titolo per lo schermo principale</string>
+	<string name="settings_main_activity_change_title">Titolo schermo principale</string>
+	<string name="settings_main_activity_change_summary">Puoi cambiare il titolo e metterci il nome di chi stai prendendo in giro!</string>
+
+	<string name="settings_select_background_image_summary">Imposta lo sfondo dello schermo che mostra la frase scelta</string>
+    <string name="settings_reset_background_image_summary">Resettalo</string>
+    
+    <string name="settings_screen_title">Opzioni</string>
+    <string name="title_activity_pick_animation_frames">Scegli gli sfondi</string>
+    
+    <string name="settings_animation_frames_summary">Immagini usate come sfondo</string>
+    <string name="settings_animation_frames_title">Immagini di sfondo</string>
+    <string name="settings_select_animation_frames_summary">Immagini usate come sfondo</string>
+    <string name="settings_select_animation_frames_title">Seleziona le immagini</string>
+    <string name="settings_reset_animation_frames_summary"></string>
+    <string name="settings_reset_animation_frames_title">Resetta gli sfondi</string>
+    
+    <string name="picture">Immagine</string>
+    <string name="select_intro">Tieni premuto su un\'anteprima per modificare lo sfondo associato</string>
+    <string name="show_intro">Premi su un\'anteprima per ingrandirla</string>
+    
+    <string name="sdcard_not_mounted">Sd Card non presente. Azione annullata!</string>
+    <string name="sdcard_not_mounted_on_application_start">Nessuna Sd Card rilevata: è necessario inserirla per il corretto funzionamento della app!</string>
+    
+    <string name="hintSearchFilter">Filtra le frasi</string>
+    <string name="recording_prepare_failed">Registrazione fallita! (errore in prepare())</string>
+
+	<string name="main_activity_title_changed">Titolo cambiato!</string>
+</resources>

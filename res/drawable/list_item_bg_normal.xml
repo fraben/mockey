@@ -1,0 +1,8 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+  <!-- Stato normal del list item -->
+  <gradient
+      android:startColor="@color/list_background"
+      android:endColor="@color/list_background"
+      android:angle="90" />
+</shape>
